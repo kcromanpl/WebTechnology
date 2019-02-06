@@ -1,0 +1,45 @@
+body{
+	background-image: url(1222.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-blend-mode: soft-light;
+	
+}
+a{
+	text-decoration: none;
+}
+h1{
+	
+	
+	text-align: center;
+	opacity: 0.5;
+	margin-top: 10%;
+}
+
+form{
+	margin-top: 5%;
+	margin-left: 40%;
+}
+input{
+	background-color: #ddd; 
+	display: block;
+	border-radius: 10px;
+}
+input[type=button]{
+	padding: 5px;
+	border-radius: 0px;
+
+	}
+
+input[type=button]:focus
+	{
+	cursor: pointer;
+   	transition: width 0.4s ease-in-out;
+	transition-delay: 1s;
+}
+
+
+select{
+	border-radius: 10px;
+	background-color: #ddd;
+}
